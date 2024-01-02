@@ -1,0 +1,55 @@
+.message-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.message-list {
+    flex: 1;
+
+}
+
+.selected-messages {
+    flex: 1;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.message-details {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.message-details h2 {
+    margin-bottom: 5px;
+}
+
+.message-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.message-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sent-messages {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.message-list>h4 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.search-button {
+    height: 23px;
+}
